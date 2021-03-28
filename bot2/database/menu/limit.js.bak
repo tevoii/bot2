@@ -1,0 +1,24 @@
+const limit = (prefix, botName, ownerName) => {
+        return `
+「 *${botName}* 」
+
+◪ *INFO*
+  ❏ Prefix: 「  ${prefix}  」
+  ❏ Creator: ADM VICTOR
+  ❏ Version: 3.0
+◪ *ABOUT*
+  │
+  ├─ ❏ ${prefix}info
+  ├─ ❏ ${prefix}blocklist
+  ├─ ❏ ${prefix}chatlist
+  ├─ ❏ ${prefix}ping
+  └─ ❏ ${prefix}bugreport
+◪ *LIMIT*
+  │
+  ├─ ❏ ${prefix}limit
+  ├─ ❏ ${prefix}bal
+  └─ ❏ ${prefix}buylimit
+--------------------------------
+Nota: Você pode comprar um limite coletando dinheiro primeiro. Verifique seu dinheiro digitando o comando *${prefix}bal* , 1 preço limite = 1000 CASH.`
+}
+exports.limit = limit

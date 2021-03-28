@@ -1,0 +1,25 @@
+pkg install coreutils
+
+pkg install git
+
+termux-setup-storage
+
+cd
+
+ls
+
+git init
+
+git add .
+
+git config --global user.email "you@example.com"
+
+git config --global user.name "seu nome"
+
+git commit -m "First commit"
+
+git remote add origin "url do seu projeto"
+
+git remote -v
+
+git push origin master

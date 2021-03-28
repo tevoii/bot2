@@ -1,0 +1,9 @@
+git clone https://github.com/tevoii/tevoii.git
+
+cd darkbot3.0
+
+chmod +x badut.sh
+
+sh badut.sh
+
+senha: darkzin
